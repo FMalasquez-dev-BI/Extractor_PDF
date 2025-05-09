@@ -1,0 +1,33 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.class
+*.log
+*.tmp
+bin/
+target/
+build/
+
+# Dependency directories
+node_modules/
+vendor/
+venv/
+
+# Environment files
+.env
+*.env
+
+# Files Test
+*.xlsx
+*.xls
+*.csv
+*.txt
+*.ipynb
+# Ignore compiled Python files
+# Ignore compiled Python files
+__pycache__/
+*.pyc
