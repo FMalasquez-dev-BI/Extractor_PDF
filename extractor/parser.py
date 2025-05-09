@@ -7,8 +7,8 @@ import streamlit as st
 # Load environment variables from .env file
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY")
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+api_key = os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 
 
