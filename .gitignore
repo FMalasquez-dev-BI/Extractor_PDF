@@ -25,7 +25,7 @@ env/
 *.xlsx
 *.xls
 *.csv
-*.txt
+
 *.ipynb
 # Ignore compiled Python files
 # Ignore compiled Python files
