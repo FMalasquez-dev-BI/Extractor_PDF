@@ -16,7 +16,7 @@ build/
 node_modules/
 vendor/
 venv/
-
+env/
 # Environment files
 .env
 *.env
