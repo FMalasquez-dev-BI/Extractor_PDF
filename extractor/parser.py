@@ -13,7 +13,7 @@ genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 
 def extract_invoice_data(text: str) -> dict:
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash-lite")
 
     prompt = f"""
           You will receive the raw text of an invoice.
